@@ -25,7 +25,7 @@ SECRET_KEY = 'q_or5=@lq=ef^1c3ym99mrwhii$1yl436t^o+0qd1@b4@hl60)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://temas-dcc-rdelgadov.c9users.io/',]
 
 
 # Application definition
@@ -80,6 +80,10 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
