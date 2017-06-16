@@ -2,4 +2,17 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-# Create your models here.
+
+class Topic(models.Model):
+    name = models.TextField()
+
+    def __str__():
+        return self.name
+
+
+class Teacher(models.Model):
+    name = models.TextField()
+    topics = models.ManyToManyField(Topic)
+
+    def __str__():
+        return self.name
