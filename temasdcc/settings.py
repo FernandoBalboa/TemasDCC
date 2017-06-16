@@ -25,7 +25,7 @@ SECRET_KEY = 'q_or5=@lq=ef^1c3ym99mrwhii$1yl436t^o+0qd1@b4@hl60)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['temas-dcc.herokuapp.com/',]
+ALLOWED_HOSTS = ['https://temas-dcc-rdelgadov.c9users.io/',]
 
 
 # Application definition
@@ -82,10 +82,9 @@ DATABASES = {
     }
 }
 
-"""import dj_database_url
+import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
-"""
 
 
 # Password validation

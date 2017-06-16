@@ -14,15 +14,11 @@ class MergeActionCase(TestCase):
     def test(self):
         tema_1 = Topic(name='Sistemas Operativos.')
         tema_2 = Topic(name='S.O.')
-        tema_1.save()
-        tema_2.save()
-        
         query_set = Topic.objects.all()
-        data = { 'action': 'merge_topics', '_selected_action': query_set }
-        change_url = reverse("admin:temasapp_topic_changelist")
-        response = self.client.post(change_url, data, follow=True)
-        
-        self.assertEqual(Topic.objects.all().count(), 1)
+        data = { 'action': 'merge', '_selected_action': query_set }
+        change_url = reverse("admin:t")
+        response = self.post(change_url, data, follow=True)
+        self.assertEqual(Topic.object.all().count, 1)
         
         
 class TemasTest(TestCase):
