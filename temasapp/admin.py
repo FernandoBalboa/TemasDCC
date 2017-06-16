@@ -1,5 +1,5 @@
 from django.contrib import admin
-from temasapp.models import Topic, Teacher
+from models import Topic, Teacher
 
 class TopicAdmin(admin.ModelAdmin):
     list_display = ['name']
