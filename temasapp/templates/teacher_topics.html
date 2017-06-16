@@ -5,6 +5,28 @@
     <title>TemasDCC</title>
 </head>
 <body>
-    <h1>HOLA</h1>
+    <h1>Temas DCC</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Profesor</th>
+                <th>Tema</th>    
+            </tr>
+        </thead>
+        <tbody>
+             {% for t in teachers %}
+                <tr>
+                    <td>
+                        {{ t.name }}
+                    </td>
+                    <td>
+                        {% for topic in t.topics.all %}
+                            {{ topic.name }}
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>
