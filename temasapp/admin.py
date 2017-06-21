@@ -16,6 +16,6 @@ class TopicAdmin(admin.ModelAdmin):
                 t.topics.add(topic)
             obj.delete()
     merge_topics.short_description = "Merge selected topics"
-"""    
+"""
 admin.site.register(Topic)
 admin.site.register(Teacher)

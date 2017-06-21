@@ -10,7 +10,7 @@ class Topic(models.Model):
         return self.name
 
 class Teacher(models.Model):
-    name = models.TextField()
+    name = models.CharField(max_length=100)
     topics = models.ManyToManyField(Topic)
 
     def __str__(self):
