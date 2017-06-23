@@ -1,0 +1,359 @@
+[
+	{
+		"model": "temasapp.topic",
+		"pk": "3D Model Retrieval",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Algorithms and Data Structures",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Algorithms",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Analysis of Algorithms",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Automata Theory",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Collaborative Systems",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Compression",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Computational Sciences",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Computer Networks",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Computer Security",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Computing in Education",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Content-based Multimedia Information Retrieval",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Cryptography",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "CSCL",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "CSCW",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Data Structures",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Database Theory",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Databases",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Finite Element Methods",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Geocollaboration",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Geometric Modeling",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Geometrical Algorithms",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "GPU-computing",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Human-Computer Interaction",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "IR",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Linked Data",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Logic in Computer Science",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Mesh Generation",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Meshing Algorithms",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Mobile and Ubiquitous Computing",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Mobile Computing",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Model Driven Engineering",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Multimedia Indexing",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Multimedia IR",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Open Data",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Privacy Preserving Data Mining",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Programming Languages",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "RDF",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Reverse Engineering",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Scientific Visualization",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Semantic Web",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Similarity Search",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Social Network Analysis",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Socio-technical Systems",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Software Engineering",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Software Evolution",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Software Performance",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Software Processes",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Succinct Data Structures",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Technology for People with Disabilities",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Text Searching",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Verification and Validation",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Visualization",
+		"fields": {}
+	},{
+		"model": "temasapp.topic",
+		"pk": "Web Data Mining",
+		"fields": {}
+	},{
+		"model": "temasapp.teacher",
+		"pk":1,
+		"fields": {
+				"name":"Jérémy Barbay",
+				"topics":["Algorithms", "Data Structures", "Algorithms and Data Structures", "Succinct Data Structures"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":2,
+		"fields": {
+				"name":"Nelson Baloian",
+				"topics":["CSCW", "CSCL", "Geocollaboration"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":3,
+		"fields": {
+				"name":"Jorge Pérez",
+				"topics":["Database Theory", "Databases", "Semantic Web"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":4,
+		"fields": {
+				"name":"Sergio F. Ochoa",
+				"topics":["Mobile and Ubiquitous Computing", "Socio-technical Systems", "Software Engineering"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":5,
+		"fields": {
+				"name":"Gonzalo Navarro",
+				"topics":["Algorithms and Data Structures", "Text Searching", "Compression", "Similarity Search"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":6,
+		"fields": {
+				"name":"Nancy Hitschfeld",
+				"topics":["Geometric Modeling", "Mesh Generation", "GPU-computing", "Visualization", "Computational Sciences"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":7,
+		"fields": {
+				"name":"Eric Tanter",
+				"topics":["Programming Languages", "Software Engineering"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":8,
+		"fields": {
+				"name":"María Cecilia Rivara",
+				"topics":["Meshing Algorithms", "Geometrical Algorithms", "Finite Element Methods", "Scientific Visualization"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":9,
+		"fields": {
+				"name":"Patricio Poblete",
+				"topics":["Data Structures", "Analysis of Algorithms", "Computer Networks"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":10,
+		"fields": {
+				"name":"Alejandro Hevia A.",
+				"topics":["Cryptography", "Computer Security"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":11,
+		"fields": {
+				"name":"Bárbara Poblete",
+				"topics":["Social Network Analysis", "Web Data Mining", "IR", "Multimedia IR", "Privacy Preserving Data Mining"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":12,
+		"fields": {
+				"name":"Benjamin Bustos C.",
+				"topics":["Similarity Search", "Content-based Multimedia Information Retrieval", "Multimedia Indexing", "3D Model Retrieval"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":13,
+		"fields": {
+				"name":"José A. Pino",
+				"topics":["Collaborative Systems", "Mobile Computing", "Computing in Education"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":14,
+		"fields": {
+				"name":"Alexandre Bergel",
+				"topics":["Software Engineering", "Software Performance", "Programming Languages", "Software Evolution", "Reverse Engineering"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":15,
+		"fields": {
+				"name":"Pablo Barceló",
+				"topics":["Database Theory", "Logic in Computer Science", "Automata Theory"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":16,
+		"fields": {
+				"name":"María Cecilia Bastarrica",
+				"topics":["Model Driven Engineering", "Software Processes", "Software Engineering"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":17,
+		"fields": {
+				"name":"Aidan Hogan",
+				"topics":["Semantic Web", "Linked Data"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":18,
+		"fields": {
+				"name":"Claudio Gutierrez G.",
+				"topics":["Databases", "Semantic Web", "RDF", "Linked Data", "Open Data"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":19,
+		"fields": {
+				"name":"Jaime Sánchez I.",
+				"topics":["Human-Computer Interaction", "Technology for People with Disabilities", "Computing in Education"]
+			}
+	},{
+		"model": "temasapp.teacher",
+		"pk":20,
+		"fields": {
+				"name":"Jocelyn Simmonds W.",
+				"topics":["Software Engineering", "Verification and Validation"]
+			}
+	}
+]

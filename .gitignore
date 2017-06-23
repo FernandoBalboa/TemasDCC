@@ -214,3 +214,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+.~c9_invoke_*.py
+db.sqlite3
