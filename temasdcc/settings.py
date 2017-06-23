@@ -25,7 +25,9 @@ SECRET_KEY = 'q_or5=@lq=ef^1c3ym99mrwhii$1yl436t^o+0qd1@b4@hl60)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://temas-dcc-rdelgadov.c9users.io/',]
+ALLOWED_HOSTS = [
+    'https://temas-dcc-rdelgadov.c9users.io/',
+    'https://dcctemas.herokuapp.com/',]
 
 
 # Application definition
