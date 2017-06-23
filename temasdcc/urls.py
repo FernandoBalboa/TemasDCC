@@ -22,5 +22,6 @@ from temasapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^teacher_topics$', views.showTeacherTopics),
+    url(r'^', views.index),
 
 ]

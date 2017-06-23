@@ -11,12 +11,6 @@
   <link rel="shortcut icon" href='{% static "favicon.ico" %}' type="image/x-icon">
 
   <title>TemasDCC</title>
-
-  <style type="text/css">
-  	span.new {
-  		margin-top: 5px;
-  	}
-  </style>
 </head>
 <body>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -62,7 +56,7 @@
                 <td>{{ t.name }}</td>
                 <td>
                   {% for topic in t.topics.all %}
-                  	<span class="new badge blue">{{ topic.name }}</span>
+                  	<span class="chip blue white-text" >{{ topic.name }}</span>
                   {% endfor %}
                 </td>
               </tr>

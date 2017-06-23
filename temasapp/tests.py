@@ -34,3 +34,11 @@ class TemasTest(TestCase):
         response = client.get('/teacher_topics')
         # assert
         self.assertEquals(200,response.status_code)
+
+    def test_index_redirect(self):
+        #arrange
+        client = Client()
+        #act
+        response = client.get('/')
+        #assert-
+        self.assertEqual(302, response.status_code)
